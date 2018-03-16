@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import webbrowser
 
 # set proxy if working in college
-os.environ["HTTPS_PROXY"] = "https://ipg_2014117:suNIL121@192.168.1.107:3128"
+os.environ["HTTPS_PROXY"] = "https://user_name:password@proxy:port"
 
 yt_url = 'https://www.youtube.com'
 
