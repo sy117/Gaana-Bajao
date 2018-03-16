@@ -31,7 +31,7 @@ def play_audio(song_name):
     source_code = requests.get(url)
     plain_text = source_code.content
     soup = BeautifulSoup(plain_text, "html.parser")
-    links = soup.find_all('a', {'class': 'rt_arw'})
+    links = soup.findAll('a', {'class': 'rt_arw'})
     webbrowser.open(links[0]['href'])
 
 
